@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantseal"
+version = "0.1.0"
+description = "Verified quality-cost receipts for LLM inference files, keyed by file hash: measured size, speed, perplexity/KL divergence and task probes, stamped MEASURED / REFUTED / UNMEASURED."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [{ name = "Ranadhir Ghosh" }]
+keywords = ["llm", "quantization", "gguf", "benchmark", "verification", "receipts"]
+
+[project.scripts]
+quantseal = "quantseal.cli:main"
+
+[tool.setuptools]
+packages = ["quantseal"]

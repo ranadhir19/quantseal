@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "chars": 16619,
+      "code": "7391",
+      "code_occurrences": 1,
+      "depth_fraction": 0.25,
+      "file": "lc1.txt",
+      "id": "lc1",
+      "sha256": "cfdff8db9ef62a3be06260a09401d9a39d7947b58475678ff6c26fc4f626ca93"
+    },
+    {
+      "chars": 16620,
+      "code": "5826",
+      "code_occurrences": 1,
+      "depth_fraction": 0.5,
+      "file": "lc2.txt",
+      "id": "lc2",
+      "sha256": "3ad1a160a252172e42690c8af7acc6283272a555f15c9104f0af9db740f2a2a6"
+    },
+    {
+      "chars": 16602,
+      "code": "9140",
+      "code_occurrences": 1,
+      "depth_fraction": 0.75,
+      "file": "lc3.txt",
+      "id": "lc3",
+      "sha256": "23a1d038d4a81bcc14f189d54d5be246ab51eacf0c16e3e41a5eb795a249d27b"
+    }
+  ],
+  "frozen": "2026-11-20",
+  "question": "What is the special code for the archive box? Answer with just the number.",
+  "suite": "quantseal long-context probe v1"
+}
